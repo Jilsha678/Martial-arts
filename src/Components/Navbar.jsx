@@ -35,9 +35,9 @@ function Navbar() {
           <div className=' md:hidden bg-black text-white px-6 pb-4 space-y-4 text-lg font-medium'>
             <div className='flex justify-end '>
               
-            <img onClick={()=>setOpenMenu(false)} className='w-6 hover:bg-red-700 cursor-pointer' src={cross_icon} alt="" />
+            <img onClick={()=>setOpenMenu(false)} className='w-6  hover:bg-red-700 cursor-pointer' src={cross_icon} alt="" />
             </div>
-              <div className="hover:text-gray-300 cursor-pointer">HOME</div>
+              <div className="hover:text-gray-300 cursor-pointer transition duration-300">HOME</div>
           <div className="hover:text-gray-300 cursor-pointer">INSTRUCTORS</div>
           <div className="hover:text-gray-300 cursor-pointer">ABOUT US</div>
           <div className="hover:text-gray-300 cursor-pointer">CONTACT</div>
